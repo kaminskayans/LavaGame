@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1c33698bd31c61439f87b62b05d252b, type: 3}
+  m_Name: medium
+  m_EditorClassIdentifier: 
+  bulletName: "\u0421\u0440\u0435\u0434\u043D\u044F\u044F"
+  icon: {fileID: 21300000, guid: e68b34c02114b7b4094aed656df976b9, type: 3}
+  attackDamage: 5000

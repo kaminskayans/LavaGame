@@ -13,8 +13,8 @@ public class BulletController : MonoBehaviour {
     void Update() {
         if (Input.GetMouseButtonDown(0) &&
             Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit)) {
-
             if (hit.collider.CompareTag("Enemy")) {
+                Time.timeScale = 0.5f;
                 isShoot = true;
                 placeShoot = hit.collider.gameObject;
 
